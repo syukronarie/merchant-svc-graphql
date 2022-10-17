@@ -1,0 +1,33 @@
+{
+	"name": "merchant-svc-graphql",
+	"version": "1.0.0",
+	"description": "a backend service (merchant) using graphql",
+	"main": "src/index.js",
+	"scripts": {
+		"start": "node --watch src/index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/syukronarie/merchant-svc-graphql.git"
+	},
+	"keywords": [
+		"Nodejs",
+		"Expressjs",
+		"GraphQL",
+		"PostgreSQL",
+		"Knexjs"
+	],
+	"author": "Arie Syukron <syukronarie@gmail.com>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/syukronarie/merchant-svc-graphql/issues"
+	},
+	"homepage": "https://github.com/syukronarie/merchant-svc-graphql#readme",
+	"dependencies": {
+		"@apollo/server": "^4.0.0",
+		"apollo-server-core": "^3.10.3",
+		"graphql": "^16.6.0",
+		"knex": "^2.3.0",
+		"pg": "^8.8.0"
+	}
+}
